@@ -1,11 +1,21 @@
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 li {
   list-style-type: none;
 }
+
 /*хедер*/
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
 
 .logo_color {
   color: #2196f3;
@@ -61,19 +71,6 @@ li {
 }
 .portfolio:hover {
   color: #2196f3;
-}
-.nav-contacts {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
 }
 .contacts {
   position: absolute;
@@ -156,6 +153,206 @@ li {
   height: 50px;
   left: 700px;
   top: 430px;
+  background-color: #2196f3;
 }
-.btn-s1:hover {
+.text-b1-s1 {
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
+  font-family: 'Roboto';
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/* Секция 2 */
+.s2 {
+  display: flex;
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.s2-h2 {
+  visibility: hidden;
+}
+.s2-h3 {
+  width: 270px;
+  height: 16px;
+  top: 774px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.s2-p {
+  width: 270px;
+  height: 75px;
+  top: 800px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Секция 3 */
+.s3-h2 {
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.foto {
+  display: flex;
+  position: absolute;
+  height: 294px;
+  top: 1061px;
+}
+.s3-foto1 {
+  position: absolute;
+  left: 215px;
+}
+.s3-foto2 {
+  position: absolute;
+  left: 615px;
+}
+.s3-foto3 {
+  position: absolute;
+  left: 1015px;
+}
+/* Секция 4 */
+.s4-h2 {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.s4-ul {
+  display: flex;
+  position: absolute;
+  top: 1635px;
+}
+.s4-foto1 {
+  position: absolute;
+  left: 215px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.s4-foto2 {
+  position: absolute;
+  left: 515px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.s4-foto3 {
+  position: absolute;
+  left: 815px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.s4-foto4 {
+  position: absolute;
+  left: 1115px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.s4-h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.s4-p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Футер */
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+
+  background: #2f303a;
+}
+.logo_color_footer {
+  color: #2196f3;
+}
+.logo-footer {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 50px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address {
+  position: absolute;
+  width: 231px;
+  height: 81px;
+  left: 215px;
+  top: 70px;
 }
