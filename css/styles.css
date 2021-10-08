@@ -13,8 +13,9 @@ body {
 .btn:hover,
 .btn:focus {
   color: var(--hover-focus-color);
+  cursor: pointer;
 }
-.btn-header {
+.btn-color {
   color: var(--title-color);
 }
 .list {
@@ -57,12 +58,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.tel,
-.mail {
+.contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--subtitle-color);
 }
 /* МЕЙН */
 /* Секция 1 */
@@ -179,6 +180,7 @@ body {
   color: var(--title-color);
   background: #f5f4fa;
   border-radius: 4px;
+  color: (--title-color);
 }
 /* Секция 2 */
 .portfolio-s2-subtitle {
@@ -186,7 +188,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--title-color);
 }
 .portfolio-s2-text {
   font-size: 16px;
