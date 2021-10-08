@@ -175,12 +175,12 @@ body {
 .btn-portfolio:focus {
   color: #ffffff;
   background-color: var(--hover-focus-color);
+  cursor: pointer;
 }
 .btn-portfolio {
   color: var(--title-color);
   background: #f5f4fa;
   color: (--title-color);
-  cursor: pointer;
 }
 /* Секция 2 */
 .portfolio-subtitle-s2 {
