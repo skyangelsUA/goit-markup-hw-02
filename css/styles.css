@@ -87,6 +87,7 @@ body {
   background: var(--hover-focus-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 /* Секция 2 */
 .s2-subtitle {
@@ -172,6 +173,7 @@ body {
 .btn-portfolio:focus {
   color: #ffffff;
   background-color: var(--hover-focus-color);
+  cursor: pointer;
 }
 .btn-portfolio {
   color: var(--title-color);
