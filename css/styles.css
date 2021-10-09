@@ -15,6 +15,9 @@ body {
   color: var(--hover-focus-color);
   cursor: pointer;
 }
+.nav-list .link.current {
+  color: var(--hover-focus-color);
+}
 .link-color {
   color: var(--title-color);
 }
@@ -36,7 +39,7 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
+:current
 /*хедер*/
 .header {
   background-color: #ffffff;
