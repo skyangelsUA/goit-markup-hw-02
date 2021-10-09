@@ -10,18 +10,18 @@ body {
   --logo-color-light: #ffffff;
   --logo-color-dark: #000000;
 }
-.btn:hover,
-.btn:focus {
+.link:hover,
+.link:focus {
   color: var(--hover-focus-color);
   cursor: pointer;
 }
-.btn-color {
+.link-color {
   color: var(--title-color);
 }
-.list {
+.list-decoration {
   list-style: none;
 }
-.text {
+.link-decoration {
   text-decoration: none;
 }
 .visually-hidden {
